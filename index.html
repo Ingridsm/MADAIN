@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADAIN Shop Online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="image/LOGO.png"/>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<!--header starts-->
+<header class="header">
+    <div class="logo">
+        <img src="IMAGE/logom.png" class="logo-img">
+    </div>
+     <nav class="navbar"> 
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+<form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here..">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+
+ <div class="shopping-cart">
+    <div class="box">
+        <i class="fas fa-trash"></i>
+            <img src="image/mikeybook.jpg" alt="">
+            <div class="content">
+                <h3>Mickey Notebook</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+                <img src="image/sharpiemaker.jpg" alt="">
+                <div class="content">
+                    <h3>Sharpie Makers</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                    <img src="image/Patokawaii.jpg" alt="">
+                    <div class="content">
+                        <h3>Kawaii Plush Duck</h3>
+                        <span class="price">$4.99/-</span>
+                        <span class="quantity">qty : 1</span>
+                    </div>
+                </div>
+                <div class="total"> total : $19.69/- </div>
+                <a href="" class="btn">Checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#"> click here</a> </p>
+        <p>don't have an account <a href="#"> create now</a> </p>
+        <input type="submit" value="Login Now" class="btn">
+    </form>
+
+</header>
+<!--header ends-->
+
+<!--home starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Different types of <span>products</span> you need!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam dolorum optio. Sunt praesentium explicabo voluptate, maxime aliquid est asperiores. </p>
+        <a href="#" class="btn">Shop Now!</a>
+    </div>
+</section>
+<!--home ends-->
+
+<!--Features starts-->
+<section class="features" id="features">
+    <h1 class="heading">Our <span>Features</span></h1>
+    <div class="box-container">
+        <div class="box"> 
+            <img class="redimension" src="image2/quality.png" alt="">
+            <h3>Quality-Price</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img class="redimension" src="image2/delivery.png" alt="">
+            <h3>Fast Delivery</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img class="redimension" src="image2/payment.png" alt="">
+            <h3>Easy Payments</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+</section>
+<!--Features ends-->
+
+<!--products starts-->
+<section class="products" id="products">
+    <h1 class="heading"> Our <span>Products</span> </h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/bottle.jfif" alt="">
+                <h3>Bottle of Water</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/organizadormaquillaje.jpg" alt="">
+                <h3>Makeup Organizer</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/despertador.jpg" alt="">
+                <h3>Alarm Clock</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/calcomanias.jpg" alt="">
+                <h3>Hello Kitty Stickers</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/espejocerdito.jpg" alt="">
+                <h3>Mirror Piggy</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/setbrochas.jpg" alt="">
+                <h3>Brush Set</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/setpulsera.jpg" alt="">
+                <h3>Set Wristbands</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img class="red" src="imgprd/pinzascabello.jpg" alt="">
+                <h3>Hair Clips</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!--products ends-->
+
+<!--Categories starts-->
+
+<section class="categories" id="categories">
+
+<h1 class="heading"> Product <span>Categories</span>  </h1>
+<div class="box-container">
+    <div class="box">
+        <img class="cat" src="image2/decoracion.png" alt="">
+        <h3>Decoration & Home </h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <div class="box">
+        <img class="cat" src="image2/bellezaymoda.png" alt="">
+        <h3>Beauty & fashion </h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <div class="box">
+        <img class="cat" src="image2/juguetes.png" alt="">
+        <h3>Toys</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+    <div class="box">
+        <img class="cat" src="image2/tecnologia.png" alt="">
+        <h3>Technology</h3>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+
+</div>
+
+</section>
+
+<!--Categories ends-->
+
+<!--Reviews starts-->
+
+<section class="review" id="review">
+
+    <h1 class="heading">Customer's <span>Reviews</span></h1>
+    <div class=" swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image3/persona1.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, officia?</p>
+                <h3>John Poe</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image3/persona2.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, officia?</p>
+                <h3>Maria Rage</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image3/persona3.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, officia?</p>
+                    <h3>Christi Carson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image3/persona4.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, officia?</p>
+                        <h3>William Baez</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Reviews ends-->
+
+<!--footer-->
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <div class="logo">
+                <img src="IMAGE/logom.png" class="logo-img">
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, at.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>+111-222-3333</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i>madain@gmail.com</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Colombia - 080001</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Features</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Reviews</a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Suscribe for latest updates</p>
+            <input type="email" placeholder="Your email" class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="image3/payment.png" class="payment-img" alt="">
+        
+        </div>
+    </div>
+
+    <div class="credit"> Created By <span>Ingrid Sanmartin Morales</span> | All Rights Reserved</div>
+
+</section>
+<!--footer-->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!--custom js file link-->
+<script src="js/script.js"></script>
+    
+</body>
+</html>
+
